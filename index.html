@@ -1,51 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/Style.css"link>
-    <title>Portfolio</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reece's Portfolio</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-            <a href="index.html">
-            <img src="https://i.postimg.cc/hvkQF0rD/download-1.jpg" alt="logo">
-            </a>
-            <nav>
-                <ul class="menu">
-                    <li><a href="#home">Home</a></li>|
-                    <li><a href="#about">AboutMe</a></li>|
-                    <li><a href="#portfolio">Resume</a></li>|
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-    </header>
-    <main>
-        <section id="home">
-            <div class="container">
-                <H1>Reece Simon</H1>
-                <img src="https://i.postimg.cc/KzrZfSqD/IMG-20220808-WA0013.jpg" src="" alt="Profile Image">
-                <p>Aspiring Developer </p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="d-flex justify-content-between">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://i.postimg.cc/fbv9xnJp/ying-yang-logo.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Just alittle peace.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <div class="d-flex justify-content-between">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://i.postimg.cc/MKjt1HxL/RS7ILR22.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-between">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://i.postimg.cc/qMdQX0RM/wp9659660.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </div>
-        </section>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>My name is Reece Simon and I am a aspiring Developer.  </p>
-        </section>
-            <section id="portfolio">
-                <h2>Portfolio</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, totam tempore, earum voluptatem nesciunt fugit sed ad quaerat, dolores officiis quam optio quibusdam consequatur animi ratione. Libero veniam beatae ea? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus voluptas, quisquam pariatur aspernatur corrupti quo blanditiis laborum rerum natus voluptatum delectus debitis asperiores expedita quod nam dolor consectetur error numquam! </p>
-            </section>
-            <section id="contact">
-                <h2>Contact</h2>
-                <H3>Email Address: reecesimon84@gmail.com </H3>
-                <H3>Phone No. 0677432579 / 0812302562 </H3>
-            </section>
-
-    </main>
-    <footer>
-        <p>Reece Copyright &copy;2022</p>
-    </footer>
+        </div>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
